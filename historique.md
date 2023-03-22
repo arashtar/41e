@@ -31,7 +31,7 @@
     - On ne peut pas changer de branche si la branche courante n'a pas ete <<commit>> valider
     - `git checkout << id du commit >>`
     - `git checkout << étiquette du commit >>`
- -  Pour creer une etiquete
+ ###  Pour creer une etiquete
     - `git tag v1.0.0 `//creation de l'etiquete v1.0.0
     -   `git tag` //  permet d'afficher l'ensembe des tag (etiquette)
     -`git checkout v1.0.0 `// Pour se deplacer dans le commit v1.0.0 (deplace le pointeur <<head>>)
@@ -43,6 +43,12 @@
     -`git remote -v` //permet voire la list des alias de serveur distant
     -`git push 41e main` // pousser mon dernier commit vers la branch main du depot distant 41e
     -`git pull 41e main` //recouperer la dernier version de notre depot 
+-Pour definir un alias identifiant le serveur disteant 
+    -`git remote add 41e https://github.com/arashtar/41e.git`
+    -`git remote -v` //permet voire la list des alias de serveur distant
+    -`git push 41e main` // pousser mon dernier commit vers la branch main du depot distant 41e
+  ---
+    
      
 ### Créez un nouveau référentiel sur github appelé 41e
 ---
