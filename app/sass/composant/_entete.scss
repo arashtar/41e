@@ -17,22 +17,58 @@
 .menu__recherche {
 
     display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         outline: 1px dotted #aaa;
         align-items: flex-end;
     @media screen and (min-width: 900px) {
-        
-        display: flex;
+        flex-direction: row;
+       
         align-items: center;
     }
    
 }
 
+.recherche__burger {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* -------------------------------------------  .menu */
-.menu {
+
+#chkBurger:checked ~ .menu {
+    transform: translateX(0);
+}
+
+.menu {  //version mobile
+    position: absolute;
+    top: 2rem;
+    transform: translateX(300px);
+    transition: transform .25s;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    @media screen and (min-width: 580px) {
+        position: static;
+        flex-direction: row;
+        align-items: center;
+    
     display: flex;
     a{
         display: block;
         padding: 2px 5px;
     }
+}
+}
+
+
+
+#chkBurger {
+    display: none;
+
+}
+
+.recherche label {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
 }
