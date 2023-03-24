@@ -39,14 +39,14 @@
     ---
 ### serveur distant
 - Pour defijnit un alias identifiant le serveur disteant 
-    -`git remote add 41e https://github.com/arashtar/41e.git`
-    -`git remote -v` //permet voire la list des alias de serveur distant
-    -`git push 41e main` // pousser mon dernier commit vers la branch main du depot distant 41e
-    -`git pull 41e main` //recouperer la dernier version de notre depot 
+    - `git remote add 41e https://github.com/arashtar/41e.git`
+    - `git remote -v` //permet voire la list des alias de serveur distant
+    - `git push 41e main` // pousser mon dernier commit vers la branch main du depot distant 41e
+    - `git pull 41e main` //recouperer la dernier version de notre depot 
 -Pour definir un alias identifiant le serveur disteant 
-    -`git remote add 41e https://github.com/arashtar/41e.git`
-    -`git remote -v` //permet voire la list des alias de serveur distant
-    -`git push 41e main` // pousser mon dernier commit vers la branch main du depot distant 41e
+    - `git remote add 41e https://github.com/arashtar/41e.git`
+    - `git remote -v` //permet voire la list des alias de serveur distant
+    - `git push 41e main` // pousser mon dernier commit vers la branch main du depot distant 41e
   ---
     
      
