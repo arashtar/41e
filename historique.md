@@ -35,7 +35,6 @@
     - `git tag v1.0.0 `//creation de l'etiquete v1.0.0
     -   `git tag` //  permet d'afficher l'ensembe des tag (etiquette)
     -`git checkout v1.0.0 `// Pour se deplacer dans le commit v1.0.0 (deplace le pointeur <<head>>)
-
   ---
 ### Serveur distant
 -Pour definir un alias identifiant le serveur disteant 
