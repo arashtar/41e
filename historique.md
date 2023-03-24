@@ -56,8 +56,32 @@
 
 -`https://github.com/arashtar/41e.git`
 
+- `git remote add 41e https://github.com/arashtar/41e.git`
+
+
 -`git remote -v`
+
+- `git status`
 
 - `git log --oneline`
 
+### pousser vers le github
+
+- `git push 41e main `
+---
+
+### Création du fichier .gitignore à la racine
+- ` Ajout de syle.css et style.css.map dans le fichier`
+---
+### Faites quelques changements dans le fichier et envoyez-le à Github
+
+-  ` git add --all`
+- ` git commit -m "ajout d'un fichier<<gitignore>>`
+- ` Ajout de <h1> titre<h1> en html`
+-  ` git add --all`
+- ` git commit -m "ajout d'un <h1> titre<h1>`
+- `git checkout main`
+- `git push 41e main`
+- `git checkout aa_entete`
+- `git push 41e aa_entete`
 
